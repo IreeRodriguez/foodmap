@@ -39,8 +39,8 @@ $(document).ready(function() {
 						"<a href='#!' class='right modal-action modal-close waves-effect waves-green btn-flat'><i class='fa fa-times' aria-hidden='true'></i></a>" +
 						"<h4 class='center-align'>" + v.name + "</h4>" +
 						"<p><strong>Adress: </strong>" + v.adress + "</p>" +
-						"<p><strong>Price: </strong>" +
-						v.range + "</p>" +
+						"<p><strong>Price: </strong> <span class='deep-orange-text text-darken-1'>" +
+						v.range + "</span></p>" +
 					"</div>" +
 				"</div>"
 			);
@@ -52,11 +52,6 @@ $(document).ready(function() {
 			  outDuration: 200, // Transition out duration
 			  startingTop: '4%', // Starting top style attribute
 			  endingTop: '10%', // Ending top style attribute
-			  ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-				alert("Ready");
-				console.log(modal, trigger);
-			  },
-			  complete: function() { alert('Closed'); } // Callback for Modal close
 			});
    	 	});
 	});
