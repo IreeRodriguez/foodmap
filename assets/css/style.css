@@ -1,0 +1,22 @@
+body{
+	background-color: #eeeeee;
+	text-align: center;
+}
+.card-image img{
+	width: 100%;
+	height: 10em;
+	object-fit: cover;
+}
+#splash {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#f4511e;
+	z-index: 99;
+}
+#splash h1{
+	padding-top: 50%;
+	vertical-align: middle;
+}

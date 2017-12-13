@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta charset="UTF-8">
+        <title>FoodMap</title>
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </head>
+    <body>
+        <div id="splash">
+            <h1 class="gray-text text-darken-4">Foodmap</h1>
+        </div>
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+                <a href="#!" class="brand-logo deep-orange-text text-darken-1">Foodmap</a>
+                <a href="#" data-activates="mobile-demo" class=" right button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="input-field col s12">
+                <select id="selectedFood" class="icons">
+                    <option value="" disabled selected>Chose a type of restaurant</option>
+                    <option value="italian" data-icon="assets/img/italian.jpg" class="circle" id="ita">Italian</option>
+                    <option value="japanese" data-icon="images/office.jpg" class="circle">Japanese</option>
+                    <option value="" data-icon="images/yuna.jpg" class="circle">example 3</option>
+                </select>
+            </div>
+        </div>
+        <section>
+            <div class="row container">
+                <div id="restaurantPic" class="col s12 column">
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <script src="assets/js/data.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script type="text/javascript" src="https://use.fontawesome.com/7873633050.js"></script>
+    </body>
+</html>
