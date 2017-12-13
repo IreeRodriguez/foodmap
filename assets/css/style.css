@@ -13,10 +13,10 @@ body{
     left:0;
     bottom:0;
     width:100%;
-    background-color:#f4511e;
+    background-color:lightgray;
 	z-index: 99;
 }
-#splash h1{
+#splash img{
 	padding-top: 50%;
 	vertical-align: middle;
 }
