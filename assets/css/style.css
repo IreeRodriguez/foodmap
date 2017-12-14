@@ -20,3 +20,7 @@ body{
 	padding-top: 50%;
 	vertical-align: middle;
 }
+
+#map{
+	margin-top: 1em;
+}
