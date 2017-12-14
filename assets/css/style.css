@@ -24,3 +24,7 @@ body{
 #map{
 	margin-top: 1em;
 }
+
+.modal-content .video-container{
+	height: 10em;
+}

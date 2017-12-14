@@ -39,7 +39,7 @@ $(document).ready(function() {
 						"<a href='#!' class='right modal-action modal-close waves-effect waves-green btn-flat'><i class='fa fa-times' aria-hidden='true'></i></a>" +
 						"<h4 class='center-align'>" + v.name + "</h4>" +
                         "<div id='" + counter + "' class= 'video-container'>" +
-                        "</div>" + 
+                        "</div>" +
 						"<p><strong>Adress: </strong>" + v.adress + "</p>" +
 						"<p><strong>Price: </strong> <span class='deep-orange-text text-darken-1'>" +
 						v.range + "</span></p>" +
