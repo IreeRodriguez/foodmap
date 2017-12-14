@@ -11,7 +11,7 @@ geocodeAddress(geocoder, map, adrs);
 
 document.getElementById('submit').addEventListener('click', function() {
 
-    initMaps('restMap','Moneda 1495.');
+    initMaps('restMap','Moneda 1495.'); 
 });
 
 
