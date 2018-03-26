@@ -7,5 +7,5 @@ Web app movil de restaurantes, encuentra restaurantes nuevos en la ciudad de San
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
 
-##Demo
+## Demo
 https://ireerodriguez.github.io/foodmap/
